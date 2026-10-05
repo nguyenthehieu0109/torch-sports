@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@torch/types": ["./packages/types/src/index.ts"],
+      "@torch/database": ["./packages/database/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
